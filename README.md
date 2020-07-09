@@ -110,8 +110,8 @@ plugins: [
 ].filter(Boolean)
 ```
 8. **devtool**: 定义是否生成以及如何生成 source map
-* 开发环境下，一般使用'eval-cheap-module-source-map'或'source map',不通类型的source map会影响构建和重新构建的速度。更多配置请见[webpack devtool](https://webpack.js.org/configuration/devtool/#devtool)
-* 生常环境下，一般禁用source map来效防止代码泄漏
+* 开发环境下，一般使用'eval-cheap-module-source-map'或'source map',不同类型的source map会影响构建和重新构建的速度。更多配置请见[webpack devtool](https://webpack.js.org/configuration/devtool/#devtool)
+* 生产环境下，一般禁用source map来效防止代码泄漏
 
 ## 开发服务器
 
